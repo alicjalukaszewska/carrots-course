@@ -1,0 +1,172 @@
+body {
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+    font-family: 'Roboto', serif;
+	color: #222222;
+}
+
+@media screen and (max-width: 768px){
+	.wrapper{
+		width: 100%;
+	}
+
+	.about {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	main {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.wrapper{
+		width: 100%;
+	}
+
+	.about {
+		width: 35%;
+	}
+
+	main {
+		width: 60%;
+		margin-left: 10px;
+	}
+}
+
+
+.wrapper {
+	background-color: #EEEEEE;
+	max-width: 1170px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+h1 {
+	background-color: #999;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+    font-family: 'Rancho', cursive;
+	font-size: 3rem;
+}
+
+.about {
+	background-color: #D3EFC6;
+	float: left;
+	color: #3d3e22;
+}
+
+.img-wrapper {
+	border: 5px solid red;
+	border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 10px auto;
+    position: relative;
+    background-color: #bf7700;
+}
+
+
+img {
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    width: 105%;
+}
+
+h2 {
+	text-align: center;
+    font-family: 'Rancho', cursive;
+
+}
+
+h3 {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+    font-family: 'Rancho', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+h4 {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+    font-family: 'Rancho', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#objective {
+	text-transform: uppercase;
+}
+
+p {
+	padding-left: 10px;
+}
+
+.fa {
+	padding-right: 5px;
+}
+
+main{
+	float: left;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	background-color: #999;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+.skills li:before {
+	font-family: 'FontAwesome';
+	content: "\f00c";
+	margin:0 10px 0 -20px;
+}
+
+.hobbies li:before {
+	font-family: 'FontAwesome';
+	content: "\f013";
+	margin:0 10px 0 -20px;
+}
+
+.personality li:before {
+	font-family: 'FontAwesome';
+	content: "\f118";
+	margin:0 10px 0 -20px;
+}
+
+.name {
+	font-size: 2.5rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+a {
+	color: #724c09;
+}
