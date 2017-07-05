@@ -14,7 +14,7 @@ body {
 
 	.about {
 		width: 100%;
-		padding: 0;
+		padding: 0 0 30px 0;
 		margin: 0;
 	}
 
@@ -22,6 +22,16 @@ body {
 		width: 100%;
 		padding: 0;
 		margin: 0;
+	}
+
+	main h3:first-child {
+		margin-top: 0;
+	}
+
+	footer p {
+		padding: 5px;
+		width: 100%;
+		margin: 0 auto;
 	}
 }
 
@@ -32,29 +42,26 @@ body {
 
 	.about {
 		width: 35%;
+		height: 1105px;
 	}
 
 	main {
 		width: 60%;
 		margin-left: 10px;
 	}
-}
 
+	footer p {
+		padding: 5px;
+		width: 70%;
+		margin: 0 auto;
+	}
+}
 
 .wrapper {
 	background-color: #EEEEEE;
 	max-width: 1170px;
 	margin: 0 auto;
 	overflow: auto;
-}
-
-h1 {
-	background-color: #999;
-	text-align: center;
-	padding: 20px;
-	margin: 0;
-    font-family: 'Rancho', cursive;
-	font-size: 3rem;
 }
 
 .about {
@@ -74,7 +81,6 @@ h1 {
     background-color: #bf7700;
 }
 
-
 img {
     position: absolute;
     left: -1000%;
@@ -85,10 +91,32 @@ img {
     width: 105%;
 }
 
+main {
+	float: left;
+}
+
+footer {
+	clear: both;
+	background-color: #999;
+	overflow: auto;
+	padding: 10px 10px 40px 10px;
+}
+
+header {
+	background-color: #999;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+    font-family: 'Rancho', cursive;
+	font-size: 3rem;
+}
+
 h2 {
 	text-align: center;
     font-family: 'Rancho', cursive;
-
+	font-size: 2rem;
 }
 
 h3 {
@@ -99,7 +127,7 @@ h3 {
     margin-bottom: 0;
 }
 
-h4 {
+main h3 {
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 10px;
     font-family: 'Rancho', cursive;
@@ -107,34 +135,38 @@ h4 {
     margin-bottom: 0;
 }
 
-#objective {
+main h3:first-child {
 	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+	margin: 0;
+}
+
+a {
+	color: #724c09;
 }
 
 p {
 	padding-left: 10px;
+	line-height: 1.5;
 }
 
 .fa {
 	padding-right: 5px;
 }
 
-main{
-	float: left;
-}
-
-footer {
-	width: 100%;
-	clear: both;
-	background-color: #999;
-	overflow: hidden;
-	padding: 0;
-	margin: 0;
-}
-
 ul {
 	list-style-type: none;
+}
 
+li {
+	line-height: 1.5;
 }
 
 .skills li:before {
@@ -153,20 +185,4 @@ ul {
 	font-family: 'FontAwesome';
 	content: "\f118";
 	margin:0 10px 0 -20px;
-}
-
-.name {
-	font-size: 2.5rem;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.italic {
-	font-style: italic;
-}
-
-a {
-	color: #724c09;
 }
